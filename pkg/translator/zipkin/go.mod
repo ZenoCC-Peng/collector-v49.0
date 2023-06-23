@@ -3,7 +3,7 @@ module github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/
 go 1.17
 
 require (
-	github.com/census-instrumentation/opencensus-proto v0.3.0
+	github.com/census-instrumentation/opencensus-proto v0.4.1
 	github.com/google/go-cmp v0.5.7
 	github.com/jaegertracing/jaeger v1.32.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal v0.49.0
@@ -12,7 +12,7 @@ require (
 	github.com/stretchr/testify v1.7.1
 	go.opentelemetry.io/collector/model v0.49.0
 	go.opentelemetry.io/collector/pdata v0.49.0
-	google.golang.org/protobuf v1.28.0
+	google.golang.org/protobuf v1.28.1
 
 )
 
