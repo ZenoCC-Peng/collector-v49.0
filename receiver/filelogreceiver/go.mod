@@ -3,7 +3,7 @@ module github.com/open-telemetry/opentelemetry-collector-contrib/receiver/filelo
 go 1.17
 
 require (
-	github.com/observiq/nanojack v0.0.0-20201106172433-343928847ebc
+	github.com/observiq/nanojack v2.0.0+incompatible
 	github.com/open-telemetry/opentelemetry-collector-contrib/extension/storage v0.49.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/internal/stanza v0.49.0
 	github.com/open-telemetry/opentelemetry-log-collection v0.29.0
@@ -39,6 +39,7 @@ require (
 	golang.org/x/sys v0.0.0-20220307203707-22a9840ba4d7 // indirect
 	golang.org/x/text v0.3.7 // indirect
 	gonum.org/v1/gonum v0.11.0 // indirect
+	gopkg.in/natefinch/lumberjack.v2 v2.2.1 // indirect
 	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b // indirect
 )
 
