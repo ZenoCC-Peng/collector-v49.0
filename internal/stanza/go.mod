@@ -10,7 +10,7 @@ require (
 	go.opentelemetry.io/collector/pdata v0.49.0
 	go.opentelemetry.io/otel/metric v0.29.0
 	go.opentelemetry.io/otel/trace v1.6.3
-	go.uber.org/multierr v1.8.0
+	go.uber.org/multierr v1.11.0
 	go.uber.org/zap v1.21.0
 	gopkg.in/yaml.v2 v2.4.0
 )
@@ -38,7 +38,7 @@ require (
 	golang.org/x/sys v0.0.0-20220307203707-22a9840ba4d7 // indirect
 	golang.org/x/text v0.3.7 // indirect
 	gonum.org/v1/gonum v0.11.0 // indirect
-	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b // indirect
+	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
 replace github.com/open-telemetry/opentelemetry-collector-contrib/extension/storage => ../../extension/storage
