@@ -15,7 +15,7 @@ require (
 	go.opentelemetry.io/collector v0.49.0
 	go.opentelemetry.io/collector/model v0.49.0
 	go.opentelemetry.io/collector/pdata v0.49.0
-	go.uber.org/atomic v1.9.0
+	go.uber.org/atomic v1.11.0
 	go.uber.org/zap v1.21.0
 	google.golang.org/protobuf v1.28.0
 	k8s.io/api v0.23.5
