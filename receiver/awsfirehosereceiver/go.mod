@@ -3,11 +3,11 @@ module github.com/open-telemetry/opentelemetry-collector-contrib/receiver/awsfir
 go 1.17
 
 require (
-	github.com/stretchr/testify v1.7.1
+	github.com/stretchr/testify v1.8.0
 	go.opentelemetry.io/collector v0.49.0
 	go.opentelemetry.io/collector/model v0.49.0
 	go.opentelemetry.io/collector/pdata v0.49.0
-	go.uber.org/zap v1.21.0
+	go.uber.org/zap v1.24.0
 )
 
 require (
@@ -39,6 +39,7 @@ require (
 	golang.org/x/text v0.3.7 // indirect
 	google.golang.org/grpc v1.45.0 // indirect
 	google.golang.org/protobuf v1.28.0 // indirect
+	gopkg.in/check.v1 v1.0.0-20180628173108-788fd7840127 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
-	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b // indirect
+	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
