@@ -8,7 +8,7 @@ require (
 	github.com/influxdata/line-protocol/v2 v2.2.1
 	github.com/open-telemetry/opentelemetry-collector-contrib/internal/common v0.49.0
 	go.opentelemetry.io/collector v0.49.0
-	go.uber.org/zap v1.21.0
+	go.uber.org/zap v1.25.0
 
 )
 
@@ -34,8 +34,7 @@ require (
 	go.opentelemetry.io/otel v1.6.3 // indirect
 	go.opentelemetry.io/otel/metric v0.29.0 // indirect
 	go.opentelemetry.io/otel/trace v1.6.3 // indirect
-	go.uber.org/atomic v1.9.0 // indirect
-	go.uber.org/multierr v1.8.0 // indirect
+	go.uber.org/multierr v1.10.0 // indirect
 	golang.org/x/net v0.0.0-20220225172249-27dd8689420f // indirect
 	golang.org/x/text v0.3.7 // indirect
 	google.golang.org/grpc v1.45.0 // indirect
